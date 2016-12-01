@@ -1,0 +1,5 @@
+rootProject.name = 'A380Example'
+
+include ':app'
+include ':A380-client'
+project(':A380-client').projectDir = new File(rootProject.projectDir, '../node_modules/A380-client/android/app')

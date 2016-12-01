@@ -1,0 +1,13 @@
+{
+  "name": "A380Example",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "A380-client": "*",
+    "react": "15.3.2",
+    "react-native": "^0.33.0"
+  }
+}
